@@ -4,8 +4,8 @@
     "jsr:@std/assert@^1.0.14": "1.0.14",
     "jsr:@std/expect@1": "1.0.17",
     "jsr:@std/internal@^1.0.10": "1.0.10",
-    "npm:effection@3": "3.6.0",
-    "npm:immutable@5": "5.1.3"
+    "npm:@effectionx/signals@0.3.0": "0.3.0",
+    "npm:effection@3": "3.6.0"
   },
   "jsr": {
     "@std/assert@1.0.14": {
@@ -26,6 +26,13 @@
     }
   },
   "npm": {
+    "@effectionx/signals@0.3.0": {
+      "integrity": "sha512-z3GxgvcOUEbRkTNRvqYwM0h7wwploMHkJrjBT5hnogv8m3X6XAE+SE60i/vTP8ac0XUCkY7pkuB/flLaUwb2KQ==",
+      "dependencies": [
+        "effection",
+        "immutable"
+      ]
+    },
     "effection@3.6.0": {
       "integrity": "sha512-+AKmSbgcjytcx4IYmd+n10IV5cuiLTl8YDXNYX0lNx70wwRS43VV0MEJAB1RD1X7FOOOWERRCJpFdRZXHmK/Og=="
     },
@@ -44,8 +51,8 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/expect@1",
-      "npm:effection@3",
-      "npm:immutable@5"
+      "npm:@effectionx/signals@0.3.0",
+      "npm:effection@3"
     ]
   }
 }

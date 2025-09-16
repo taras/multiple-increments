@@ -5,6 +5,6 @@
   "imports": {
     "@std/expect": "jsr:@std/expect@^1",
     "effection": "npm:effection@^3",
-    "immutable": "npm:immutable@^5"
-  }
+    "@effectionx/signals": "npm:@effectionx/signals@0.3.0"
+   }
 }
