@@ -54,7 +54,7 @@ if (import.meta.main) {
 }
 ```
 
-`createNumberSignal` is imported from [./numbers.ts](./numbers.ts). It's an implementation of a ValueSignal
+`createNumberSignal` is imported from [./number.ts](./number.ts). It's an implementation of a ValueSignal
 which is an immutable state container using a simplified version of the Flux pattern which is pretty much
 ubiqutious in frontend development, but is less known in backend development. It's very useful when working
 with shared state in complex asyncrony because it provides a convenient way to invoke state changes from
