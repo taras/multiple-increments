@@ -1,0 +1,51 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@std/assert@^1.0.14": "1.0.14",
+    "jsr:@std/expect@1": "1.0.17",
+    "jsr:@std/internal@^1.0.10": "1.0.10",
+    "npm:effection@3": "3.6.0",
+    "npm:immutable@5": "5.1.3"
+  },
+  "jsr": {
+    "@std/assert@1.0.14": {
+      "integrity": "68d0d4a43b365abc927f45a9b85c639ea18a9fab96ad92281e493e4ed84abaa4",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/expect@1.0.17": {
+      "integrity": "316b47dd65c33e3151344eb3267bf42efba17d1415425f07ed96185d67fc04d9",
+      "dependencies": [
+        "jsr:@std/assert",
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.10": {
+      "integrity": "e3be62ce42cab0e177c27698e5d9800122f67b766a0bea6ca4867886cbde8cf7"
+    }
+  },
+  "npm": {
+    "effection@3.6.0": {
+      "integrity": "sha512-+AKmSbgcjytcx4IYmd+n10IV5cuiLTl8YDXNYX0lNx70wwRS43VV0MEJAB1RD1X7FOOOWERRCJpFdRZXHmK/Og=="
+    },
+    "immutable@5.1.3": {
+      "integrity": "sha512-+chQdDfvscSF1SJqv2gn4SRO2ZyS3xL3r7IW/wWEEzrzLisnOlKiQu5ytC/BVNcS15C39WT2Hg/bjKjDMcu+zg=="
+    }
+  },
+  "remote": {
+    "https://raw.githubusercontent.com/thefrontside/effectionx/refs/heads/tm/export-signal-types/signals/array.ts": "c5c23eef77573762b852915332b309a8a218e37ef1548f124307b3eda4d2402b",
+    "https://raw.githubusercontent.com/thefrontside/effectionx/refs/heads/tm/export-signal-types/signals/boolean.ts": "182a637eed1cf0a1a7430499a078340a7a88bb0992bc2df70c43ba5cb9d592cf",
+    "https://raw.githubusercontent.com/thefrontside/effectionx/refs/heads/tm/export-signal-types/signals/helpers.ts": "8f54913aff2ac3324d9d69122fa6174c9bf1f8fe5cfcafe0d03483bbbde7d27e",
+    "https://raw.githubusercontent.com/thefrontside/effectionx/refs/heads/tm/export-signal-types/signals/mod.ts": "cb3d4d5735e8e58706d6641924cac95814c312b839c749d397c3a9dabd292b2c",
+    "https://raw.githubusercontent.com/thefrontside/effectionx/refs/heads/tm/export-signal-types/signals/set.ts": "55a4b325147f4b2ef5ace174b03316ab04902545b86d79bf9a9ef9da115e92d6",
+    "https://raw.githubusercontent.com/thefrontside/effectionx/refs/heads/tm/export-signal-types/signals/types.ts": "5079320a2a8f3906ca62eaec89f72d57525e2436a9f2c2eb59046d97df879ad3"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/expect@1",
+      "npm:effection@3",
+      "npm:immutable@5"
+    ]
+  }
+}
